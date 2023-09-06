@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +9,7 @@
 <body>
     <h1>Información de usuario</h1>
 
+    <img src="{% static 'img/peter.jpg' %}" height="200">
     <ul>
         <li>Nombre: {{nombre}}</li>
         <li>Apellido: {{apellido}}</li>

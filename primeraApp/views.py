@@ -10,6 +10,7 @@ def infoUsuario(request):
         'nombre': 'Pedro',
         'apellido': 'Parker',
         'correo': 'peterparker@dayli.cl',
-        'direccion': 'New York, Casa tia May'
+        'direccion': 'New York, Casa tia May',
+        
     }
     return render(request, 'primeraApp/segundoTemplate.html',data)
